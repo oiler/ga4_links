@@ -53,10 +53,10 @@ Object.keys(events).forEach(function(key) {
     var ga_object = ga_assign(this_event);
     // console.log(ga_object);
     this_event.addEventListener("click", function() {
-        gtag('event', 'click_link', ga_object);
+        gtag('event', 'links', ga_object);
     });
     this_event.addEventListener("auxclick", function() {
-        gtag('event', 'click_link', ga_object);
+        gtag('event', 'links', ga_object);
     });
 });
 
