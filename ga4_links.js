@@ -1,8 +1,3 @@
-<script>
-/* IFFY */
-;(function (window, document, undefined) {
-
-
 'use strict';
 var events = document.querySelectorAll('a');
 var this_hostname = location.hostname;
@@ -59,6 +54,3 @@ Object.keys(events).forEach(function(key) {
         gtag('event', 'links', ga_object);
     });
 });
-
-})(window, document);
-</script>
