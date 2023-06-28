@@ -1,6 +1,6 @@
 # GA4 Anchor Clicks
 
-This short js file will add an event listener to all anchor tags (<a>) on the page and send GA4 events when clicked (or auxclicked).
+This short js file will add an event listener to all anchor tags (`<a>`) on the page and send GA4 events when clicked (or auxclicked).
 
 # Usage & Options
 
@@ -18,3 +18,4 @@ You can format an anchor tag as follows, which will send 5 pieces of data along 
 
 To be able to run reports on this data, you will need to establish the above custom parameters as "Custom Dimensions" in your GA4 admin dashboard.
 
+![Custom Dimensions Example](./example_dimensions.png "Custom Dimensions Example")
